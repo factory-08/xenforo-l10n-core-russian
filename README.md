@@ -12,13 +12,13 @@
 
 - [Поддержка](https://webmasters.community/)
 - [Документация](https://xenforo.webmasters.wiki/)
-- [Исходный код](https://github.com/factory-08/xenforo-l10n-forum)
+- [Исходный код](https://github.com/factory-08/xenforo-l10n-core-russian)
 - [Журнал изменений](CHANGELOG.md)
 - [Кодекс поведения (EN)](CODE_OF_CONDUCT.en.md)
 - [Кодекс поведения (RU)](CODE_OF_CONDUCT.ru.md)
 - [Правила участия в разработке](CONTRIBUTING.md)
-- [Сообщить о проблеме](https://github.com/factory-08/xenforo-l10n-forum/issues)
-- [Скачать через Packagist](https://packagist.org/packages/metastore/xenforo-l10n-forum-russian)
+- [Сообщить о проблеме](https://github.com/factory-08/xenforo-l10n-core-russian/issues)
+- [Скачать через Packagist](https://packagist.org/packages/metastore/xenforo-l10n-core-russian)
 
 ## Платформа
 
