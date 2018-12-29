@@ -1,7 +1,7 @@
 {
 	"name": "metastore/xenforo-l10n-core-russian",
 	"type": "xenforo-extension",
-	"description": "",
+	"description": "Russian language pack for XenForo.",
 	"license": "GPL-3.0-or-later",
 	"homepage": "https://webmasters.community/",
 	"keywords": [
