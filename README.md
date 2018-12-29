@@ -3,6 +3,8 @@
 ![](https://img.shields.io/github/tag/factory-08/xenforo-l10n-core-russian.svg?style=flat-square)
 ![](https://img.shields.io/github/downloads/factory-08/xenforo-l10n-core-russian/total.svg?style=flat-square)
 ![](https://img.shields.io/github/license/factory-08/xenforo-l10n-core-russian.svg?style=flat-square)
+![](https://img.shields.io/packagist/v/metastore/xenforo-l10n-core-russian?style=flat-square)
+<a href="https://packagist.org/packages/metastore/xenforo-l10n-core-russian"><img src="https://img.shields.io/packagist/v/metastore/xenforo-l10n-core-russian?style=flat-square" alt="" /></a>
 
 Пакет русской локализации движка [**XenForo**](https://xenforo.com/).
 
@@ -13,7 +15,7 @@
 
 ## Обновление
 
-1. Зайти в **Панель администратора**, далее *Внешний вид* → *Языки*, и нажать кнопку **Импорт**.
+1. Зайти в **Панель администратора**, далее *Внешний вид* → *Языки*, и нажать кнопку <kbd>Импорт</kbd>.
 2. На странице импорта, в поле *Импорт из XML-файла*, выбрать файл `language-russian.xml` и импортировать как **Язык с перезаписью: Русский (RU)**.
 
 ## Авторы
