@@ -8,7 +8,7 @@
 
 ## Установка
 
-1. Зайти в **AdminCP**, далее *Appearance* → *Languages*, и нажать кнопку **Import**.
+1. Зайти в **AdminCP**, далее *Appearance* → *Languages*, и нажать кнопку <kbd>Import</kbd>.
 2. На странице импорта, в поле *Import from uploaded XML file*, выбрать файл `language-russian.xml` и импортировать как **Child of language: (No Parent)**.
 
 ## Обновление
