@@ -6,7 +6,7 @@
 [![Packagist](https://img.shields.io/packagist/v/metastore/xenforo-l10n-core-russian.svg?style=flat-square)](https://packagist.org/packages/metastore/xenforo-l10n-core-russian)
 [![](https://img.shields.io/packagist/dt/factory-08/xenforo-l10n-core-russian.svg?style=flat-square)](https://packagist.org/packages/metastore/xenforo-l10n-core-russian)
 
-![Repo size](https://img.shields.io/github/repo-size/factory-08/xenforo-l10n-core-russian.svg?style=flat-square)
+[![Repo size](https://img.shields.io/github/repo-size/factory-08/xenforo-l10n-core-russian.svg?style=flat-square)](https://github.com/factory-08/xenforo-l10n-core-russian)
 [![Issues](https://img.shields.io/github/issues-raw/factory-08/xenforo-l10n-core-russian.svg?style=flat-square)](https://github.com/factory-08/xenforo-l10n-core-russian/issues)
 [![Pull requests](https://img.shields.io/github/issues-pr-raw/factory-08/xenforo-l10n-core-russian.svg?style=flat-square)](https://github.com/factory-08/xenforo-l10n-core-russian/pulls)
 [![License](https://img.shields.io/github/license/factory-08/xenforo-l10n-core-russian.svg?style=flat-square)](LICENSE)
