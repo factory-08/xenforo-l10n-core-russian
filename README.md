@@ -7,8 +7,8 @@
 [![](https://img.shields.io/packagist/dt/factory-08/xenforo-l10n-core-russian.svg?style=flat-square)](https://packagist.org/packages/metastore/xenforo-l10n-core-russian)
 
 ![Repo size](https://img.shields.io/github/repo-size/factory-08/xenforo-l10n-core-russian.svg?style=flat-square)
-[![](https://img.shields.io/github/issues-raw/factory-08/xenforo-l10n-core-russian.svg)](https://github.com/factory-08/xenforo-l10n-core-russian/issues)
-[![](https://img.shields.io/github/issues-pr-raw/factory-08/xenforo-l10n-core-russian.svg)](https://github.com/factory-08/xenforo-l10n-core-russian/pulls)
+[![Issues](https://img.shields.io/github/issues-raw/factory-08/xenforo-l10n-core-russian.svg?style=flat-square)](https://github.com/factory-08/xenforo-l10n-core-russian/issues)
+[![Pull requests](https://img.shields.io/github/issues-pr-raw/factory-08/xenforo-l10n-core-russian.svg?style=flat-square)](https://github.com/factory-08/xenforo-l10n-core-russian/pulls)
 [![License](https://img.shields.io/github/license/factory-08/xenforo-l10n-core-russian.svg?style=flat-square)](LICENSE)
 [![Liberapay](https://img.shields.io/badge/liberapay-donate-red.svg?style=flat-square)](https://liberapay.com/metadata/donate)
 [![Patreon](https://img.shields.io/badge/patreon-donate-red.svg?style=flat-square)](https://patreon.com/metadata)
