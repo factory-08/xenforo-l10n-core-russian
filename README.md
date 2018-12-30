@@ -1,3 +1,5 @@
+# Информация
+
 [![Support](https://cdn-storage.github.io/images/common/badges/info.support.svg)](https://webmasters.community/)
 [![Documentation](https://cdn-storage.github.io/images/common/badges/info.documentation.svg)](https://xenforo.webmasters.wiki/)
 [![Source](https://cdn-storage.github.io/images/common/badges/info.source.svg)](https://github.com/factory-08/xenforo-l10n-core-russian)
@@ -12,8 +14,6 @@
 [![Liberapay](https://cdn-storage.github.io/images/common/badges/donate.liberapay.svg)](https://liberapay.com/metadata/donate)
 [![Patreon](https://cdn-storage.github.io/images/common/badges/donate.patreon.svg)](https://patreon.com/metadata)
 [![By METADATA](https://cdn-storage.github.io/images/common/badges/by.metadata.svg)](https://metadata.foundation/)
-
-# Информация
 
 Пакет русской локализации движка [**XenForo**](https://xenforo.com/).
 
