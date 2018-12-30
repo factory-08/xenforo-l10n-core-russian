@@ -3,7 +3,7 @@
 [![Tag](https://img.shields.io/github/tag/factory-08/xenforo-l10n-core-russian.svg?style=flat-square)](https://github.com/factory-08/xenforo-l10n-core-russian/releases)
 [![Packagist](https://img.shields.io/packagist/v/metastore/xenforo-l10n-core-russian.svg?style=flat-square)](https://packagist.org/packages/metastore/xenforo-l10n-core-russian)
 [![License](https://img.shields.io/github/license/factory-08/xenforo-l10n-core-russian.svg?style=flat-square)](LICENSE)
-[![Liberapay](https://img.shields.io/liberapay/gives/metadata.svg?style=flat-square)](https://en.liberapay.com/metadata/donate)
+[![Liberapay](https://img.shields.io/badge/liberapay-donate-red.svg?style=flat-square)](https://en.liberapay.com/metadata/donate)
 [![Patreon](https://img.shields.io/badge/patreon-donate-red.svg?style=flat-square)](https://patreon.com/metadata)
 
 Пакет русской локализации движка [**XenForo**](https://xenforo.com/).
