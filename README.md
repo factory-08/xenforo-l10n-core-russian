@@ -1,11 +1,19 @@
 # Информация
 
-[![Tag](https://img.shields.io/github/tag/factory-08/xenforo-l10n-core-russian.svg?style=flat-square)](https://github.com/factory-08/xenforo-l10n-core-russian/releases)
-[![Packagist](https://img.shields.io/packagist/v/metastore/xenforo-l10n-core-russian.svg?style=flat-square)](https://packagist.org/packages/metastore/xenforo-l10n-core-russian)
-[![](https://img.shields.io/packagist/dt/metastore/xenforo-l10n-core-russian.svg?style=flat-square)](https://packagist.org/packages/metastore/xenforo-l10n-core-russian)
-[![License](https://img.shields.io/github/license/factory-08/xenforo-l10n-core-russian.svg?style=flat-square)](LICENSE)
-[![Liberapay](https://img.shields.io/badge/liberapay-donate-red.svg?style=flat-square)](https://liberapay.com/metadata/donate)
-[![Patreon](https://img.shields.io/badge/patreon-donate-red.svg?style=flat-square)](https://patreon.com/metadata)
+[![Support](https://cdn-storage.github.io/images/common/badges/info.support.svg)](https://webmasters.community/)
+[![Documentation](https://cdn-storage.github.io/images/common/badges/info.documentation.svg)](https://xenforo.webmasters.wiki/)
+[![Source](https://cdn-storage.github.io/images/common/badges/info.source.svg)](https://github.com/factory-08/xenforo-l10n-core-russian)
+[![Changelog](https://cdn-storage.github.io/images/common/badges/info.changelog.svg)](CHANGELOG.md)
+[![Code of Conduct](https://cdn-storage.github.io/images/common/badges/info.coc.en.svg)](CODE_OF_CONDUCT.en.md)
+[![Code of Conduct](https://cdn-storage.github.io/images/common/badges/info.coc.ru.svg)](CODE_OF_CONDUCT.ru.md)
+[![Contributing](https://cdn-storage.github.io/images/common/badges/info.contributing.svg)](CONTRIBUTING.md)
+[![Authors](https://cdn-storage.github.io/images/common/badges/info.changelog.svg)](AUTHORS)
+[![Issues](https://cdn-storage.github.io/images/common/badges/info.issues.svg)](https://github.com/factory-08/xenforo-l10n-core-russian/issues)
+[![Packagist](https://cdn-storage.github.io/images/common/badges/info.packagist.svg)](https://packagist.org/packages/metastore/xenforo-l10n-core-russian)
+[![License](https://cdn-storage.github.io/images/common/badges/license.gpl-3.0.svg)](LICENSE)
+[![Liberapay](https://cdn-storage.github.io/images/common/badges/donate.liberapay.svg)](https://liberapay.com/metadata/donate)
+[![Patreon](https://cdn-storage.github.io/images/common/badges/donate.patreon.svg)](https://patreon.com/metadata)
+[![By METADATA](https://cdn-storage.github.io/images/common/badges/by.metadata.svg)](https://metadata.foundation/)
 
 Пакет русской локализации движка [**XenForo**](https://xenforo.com/).
 
@@ -18,24 +26,3 @@
 
 1. Зайти в **Панель администратора**, далее *Внешний вид* → *Языки*, и нажать кнопку <kbd>Импорт</kbd>.
 2. На странице импорта, в поле *Импорт из XML-файла*, выбрать файл `language-russian.xml` и импортировать как **Язык с перезаписью: Русский (RU)**.
-
-## Авторы
-
-- [Kitsune Solar](https://kitsune.solar/) - редактор.
-
-## Ссылки
-
-- [Поддержка](https://webmasters.community/)
-- [Документация](https://xenforo.webmasters.wiki/)
-- [Исходный код](https://github.com/factory-08/xenforo-l10n-core-russian)
-- [Журнал изменений](CHANGELOG.md)
-- [Кодекс поведения (EN)](CODE_OF_CONDUCT.en.md)
-- [Кодекс поведения (RU)](CODE_OF_CONDUCT.ru.md)
-- [Правила участия в разработке](CONTRIBUTING.md)
-- [Сообщить о проблеме](https://github.com/factory-08/xenforo-l10n-core-russian/issues)
-- [Скачать через Packagist](https://packagist.org/packages/metastore/xenforo-l10n-core-russian)
-
-## Платформа
-
-- [**METADATA / FOUNDATION**](https://metadata.foundation/) - поддержка и разработка открытых проектов.
-- [**METASTORE**](https://metastore.pro/) - хранилище открытых проектов [**METADATA**](https://metadata.foundation/).
