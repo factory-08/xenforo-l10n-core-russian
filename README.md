@@ -3,7 +3,7 @@
 ![Tag](https://img.shields.io/github/tag/factory-08/xenforo-l10n-core-russian.svg?style=flat-square)
 ![Downloads](https://img.shields.io/github/downloads/factory-08/xenforo-l10n-core-russian/total.svg?style=flat-square)
 ![License](https://img.shields.io/github/license/factory-08/xenforo-l10n-core-russian.svg?style=flat-square)
-![Packagist](https://img.shields.io/packagist/v/metastore/xenforo-l10n-core-russian?style=flat-square)
+![](https://img.shields.io/packagist/v/metastore/xenforo-l10n-core-russian.svg?style=flat-square)
 
 Пакет русской локализации движка [**XenForo**](https://xenforo.com/).
 
