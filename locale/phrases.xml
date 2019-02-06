@@ -461,6 +461,7 @@
 
 <p>All super administrators have been automatically notified of this change.</p>]]></phrase>
   <phrase title="api_key_change_subject" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[{board} - API key changed]]></phrase>
+  <phrase title="api_key_copied_to_clipboard" version_id="2010053" version_string="2.1.0 Release Candidate 3"><![CDATA[API key copied to clipboard.]]></phrase>
   <phrase title="api_key_details" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[API key details]]></phrase>
   <phrase title="api_key_is_active" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[API key is active]]></phrase>
   <phrase title="api_key_x_created_or_updated_key_use_follows" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[The API key "{title}" has been created or updated. The key to use with the API is as follows:]]></phrase>
@@ -721,6 +722,7 @@ This is [SIZE=1]small[/SIZE] and [SIZE=7]big[/SIZE] text.]]></phrase>
   <phrase title="block_this_registration" version_id="1010470" version_string="1.1.4"><![CDATA[Block this registration]]></phrase>
   <phrase title="board_url_option_not_match_license_url" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[The <a href="{link}">Board URL option</a> does not match the site URL configured for your license.]]></phrase>
   <phrase title="bookmark_deleted_successfully" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[Bookmark deleted successfully.]]></phrase>
+  <phrase title="bookmark_labels" version_id="2010053" version_string="2.1.0 Release Candidate 3"><![CDATA[Bookmark labels]]></phrase>
   <phrase title="bookmark_saved_successfully" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[Bookmark saved successfully.]]></phrase>
   <phrase title="bookmark_tools" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[Bookmark tools]]></phrase>
   <phrase title="bookmarked" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[Bookmarked]]></phrase>
@@ -4612,6 +4614,7 @@ Your callback should return an HTML string, and have a signature as follows:<br 
   <phrase title="following_placeholders_will_be_replaced_in_message_for_conversation" version_id="2000370" version_string="2.0.3"><![CDATA[The following placeholders will be replaced in the message: {name}, {email}, {id}.]]></phrase>
   <phrase title="following_placeholders_will_be_replaced_in_message_for_email" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[The following placeholders will be replaced in the message: {name}, {email}, {id}, {unsub}.]]></phrase>
   <phrase title="following_placeholders_will_be_replaced_in_message_for_welcome_email" version_id="2000270" version_string="2.0.2"><![CDATA[The following placeholders will be replaced in the message: {name}, {email}, {id}.]]></phrase>
+  <phrase title="following_requirements_for_x_were_not_met_y" version_id="2010036" version_string="2.1.0 Beta 6"><![CDATA[The following requirements for {title} were not met: {errors}]]></phrase>
   <phrase title="following_sub_options_unknown_x" version_id="0"><![CDATA[The following sub-option(s) are unknown: {subOptions}.]]></phrase>
   <phrase title="following_tags_not_found_x" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[The following tags could not be found: {tags}]]></phrase>
   <phrase title="following_updates_official_add_ons_now_available" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[The following updates to official add-ons are now available:]]></phrase>
@@ -4661,6 +4664,7 @@ Your callback should return an HTML string, and have a signature as follows:<br 
   <phrase title="given_by" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Given by]]></phrase>
   <phrase title="global_permissions" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Global permissions]]></phrase>
   <phrase title="global_value" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Global value]]></phrase>
+  <phrase title="gmp_support" version_id="2010037" version_string="2.1.0 Beta 7"><![CDATA[<code>gmp</code> support]]></phrase>
   <phrase title="go" version_id="1000015" version_string="1.0.0 Alpha 5"><![CDATA[Go]]></phrase>
   <phrase title="go_to_content" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Go to content]]></phrase>
   <phrase title="go_to_page" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Go to page]]></phrase>
@@ -4864,6 +4868,11 @@ The XML file will be placed into your 'internal-data' folder, using the file nam
   <phrase title="import_this_smilie" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Import this smilie]]></phrase>
   <phrase title="import_totals" version_id="2000036" version_string="2.0.0 Beta 6"><![CDATA[Import totals]]></phrase>
   <phrase title="import_user" version_id="2000631" version_string="2.0.6 Beta 1"><![CDATA[Import a user]]></phrase>
+  <phrase title="import_verification_errors_x_select_skip_checks" version_id="2010036" version_string="2.1.0 Beta 6"><![CDATA[The import could not be completed because the following issues were found:<br />
+<br />
+{errors}<br />
+<br />
+If you are sure you want to continue with the import, select the 'Skip import checks' option and try again.]]></phrase>
   <phrase title="imported_content" version_id="2000270" version_string="2.0.2"><![CDATA[Imported content]]></phrase>
   <phrase title="importing" version_id="2000036" version_string="2.0.0 Beta 6"><![CDATA[Importing]]></phrase>
   <phrase title="in_a_minute" version_id="2000010" version_string="2.0.0 Alpha" global_cache="1"><![CDATA[In a minute]]></phrase>
@@ -4917,9 +4926,9 @@ The XML file will be placed into your 'internal-data' folder, using the file nam
   <phrase title="installed_add_ons" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Installed add-ons]]></phrase>
   <phrase title="installing" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Installing]]></phrase>
   <phrase title="installing_from_archives_is_only_supported_if_you_have_ziparchive_support" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[Installing from archives is only supported if you have <code>ZipArchive</code> support. You may need to ask your host to enable this.]]></phrase>
-  <phrase title="installing_from_archives_must_be_explicitly_enabled_explain" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[Installing from archives must be explicitly enabled by adding the following line to <code>src/config.php</code>:
+  <phrase title="installing_from_archives_must_be_explicitly_enabled_explain" version_id="2010036" version_string="2.1.0 Beta 6"><![CDATA[Installing from archives must be explicitly enabled by adding the following line to <code>src/config.php</code>:
 
-<pre><code>$config['enableAddOnArchiveInstaller'] = true;</code></pre>
+<pre class="u-screenContained"><code>$config['enableAddOnArchiveInstaller'] = true;</code></pre>
 
 Various directories must be writable by the web server user to install from an archive and this may be considered to be insecure in some hosting environments. Your server must also have ZipArchive support in PHP.]]></phrase>
   <phrase title="integer" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Integer]]></phrase>
@@ -4980,6 +4989,7 @@ Various directories must be writable by the web server user to install from an a
   <phrase title="label" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[Label]]></phrase>
   <phrase title="label_separator" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Label separator]]></phrase>
   <phrase title="labels" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[Labels]]></phrase>
+  <phrase title="labels_must_be_unique" version_id="2010053" version_string="2.1.0 Release Candidate 3"><![CDATA[Labels must be unique. The specified label already exists.]]></phrase>
   <phrase title="language" version_id="1000015" version_string="1.0.0 Alpha 5"><![CDATA[Language]]></phrase>
   <phrase title="language_chooser" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Language chooser]]></phrase>
   <phrase title="language_code" version_id="2000036" version_string="2.0.0 Beta 6"><![CDATA[Language]]></phrase>
@@ -5189,6 +5199,7 @@ Various directories must be writable by the web server user to install from an a
   <phrase title="loading" version_id="1000015" version_string="1.0.0 Alpha 5"><![CDATA[Loading]]></phrase>
   <phrase title="loading_image" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Loading image]]></phrase>
   <phrase title="locale" version_id="1000036" version_string="1.0.0 Beta 6"><![CDATA[Locale]]></phrase>
+  <phrase title="locale_of_language_importing_differs_overwriting_is_correct" version_id="2010036" version_string="2.1.0 Beta 6"><![CDATA[The locale of the language you're importing differs from the language you're overwriting. Is this the correct language?]]></phrase>
   <phrase title="locally_hosted" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Locally hosted]]></phrase>
   <phrase title="location" version_id="1000015" version_string="1.0.0 Alpha 5"><![CDATA[Location]]></phrase>
   <phrase title="lock_conversation" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Lock conversation]]></phrase>
@@ -5748,6 +5759,7 @@ Note: when enabling oEmbed, any HTML entered in the 'Embed template' field is ig
   <phrase title="one_or_more_of_add_ons_in_this_batch_failed_to_install_upgrade" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[One or more of the add-ons in this batch failed to install/upgrade. Click or hover over the error icon to view details of the error.]]></phrase>
   <phrase title="online_now" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Online now]]></phrase>
   <phrase title="online_now_x_members_y_guests_z" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Total:&nbsp;{total} (members:&nbsp;{members}, guests:&nbsp;{guests})]]></phrase>
+  <phrase title="only_display_within_selected_categories_no_children" version_id="2010036" version_string="2.1.0 Beta 6"><![CDATA[Only display within selected categories (rather than including child categories)]]></phrase>
   <phrase title="only_display_within_selected_nodes_no_children" version_id="1020010" version_string="1.2.0 Alpha"><![CDATA[Only display within selected nodes (rather than including child nodes)]]></phrase>
   <phrase title="only_edits_within_last_x_days_will_be_reverted" version_id="1020010" version_string="1.2.0 Alpha"><![CDATA[Only edits within the last {count} days will be reverted.]]></phrase>
   <phrase title="only_generate_list_of_email_addresses" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Only generate a list of email addresses]]></phrase>
@@ -5864,7 +5876,7 @@ Note: when enabling oEmbed, any HTML entered in the 'Embed template' field is ig
   <phrase title="option.jQuerySource" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[jQuery source]]></phrase>
   <phrase title="option.jsLastUpdate" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[JavaScript last update]]></phrase>
   <phrase title="option.lastPageLinks" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Maximum last page links]]></phrase>
-  <phrase title="option.lightBoxUniversal" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Lightbox displays all attached images on page]]></phrase>
+  <phrase title="option.lightBoxUniversal" version_id="2010037" version_string="2.1.0 Beta 7"><![CDATA[Lightbox displays all attached thumbnails on page]]></phrase>
   <phrase title="option.linkShare" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Enable link share button]]></phrase>
   <phrase title="option.loginLimit" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Login limit method]]></phrase>
   <phrase title="option.logoLink" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Link logo to home page URL]]></phrase>
@@ -5939,7 +5951,7 @@ Note: when enabling oEmbed, any HTML entered in the 'Embed template' field is ig
   <phrase title="option.unsubscribeEmailAddress" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[Unsubscribe email address]]></phrase>
   <phrase title="option.upgradeCheckStableOnly" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[Only check for stable upgrades]]></phrase>
   <phrase title="option.urlToPageTitle" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Convert URLs to page titles]]></phrase>
-  <phrase title="option.urlToRichPreview" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[Unfurl URL to a rich preview]]></phrase>
+  <phrase title="option.urlToRichPreview" version_id="2010037" version_string="2.1.0 Beta 7"><![CDATA[Unfurl URL to a rich preview automatically]]></phrase>
   <phrase title="option.useFriendlyUrls" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Use full friendly URLs]]></phrase>
   <phrase title="option.userBanners" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[User banners]]></phrase>
   <phrase title="option.userMentionKeepAt" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Keep @ character with user mentions]]></phrase>
@@ -5956,7 +5968,7 @@ Note: when enabling oEmbed, any HTML entered in the 'Embed template' field is ig
   <phrase title="option_explain.alertExpiryDays" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[User alerts will disappear from the alerts list this many days after being viewed. Unviewed alerts will automatically expire after 30 days.]]></phrase>
   <phrase title="option_explain.alertsPerPage" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Controls how many alerts are shown on each page of users' full alert list.]]></phrase>
   <phrase title="option_explain.alertsPopupExpiryHours" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[The alert popup will show all unviewed alerts, plus any viewed alerts that were viewed within the time frame (in hours) before now. Note that the total amount shown in this popup is limited to no more than 25.]]></phrase>
-  <phrase title="option_explain.allowVideoUploads" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[Use this option to globally disable video uploads. Once enabled, you must give specific users/groups the relevant permissions to upload videos.<br />
+  <phrase title="option_explain.allowVideoUploads" version_id="2010053" version_string="2.1.0 Release Candidate 3"><![CDATA[Use this option to globally enable or disable video uploads. If enabled, you must give specific users/groups the relevant permissions to upload videos.<br />
 <br />
 The following additional extensions will be available for upload: {allowedVideoExtensions}.<br />
 <br />
@@ -6082,7 +6094,7 @@ This option requires that the specified account is a catch-all account or suppor
 });*/
 </script>]]></phrase>
   <phrase title="option_explain.lastPageLinks" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[If a discussion spans multiple pages, the last few pages are displayed on the discussion list. Set the maximum number of pages to show here. Set the number to 0 to disable this feature.]]></phrase>
-  <phrase title="option_explain.lightBoxUniversal" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[If this option is enabled, the Lightbox overlay in which images are loaded will show all attached images from all messages on the current page. If disabled, the Lightbox will show only attached images from the current message.]]></phrase>
+  <phrase title="option_explain.lightBoxUniversal" version_id="2010037" version_string="2.1.0 Beta 7"><![CDATA[If enabled, the lightbox overlay show images from all messages on the current page, rather than only the current message. Note that the lightbox will only include attached images that have been displayed as a thumbnail.]]></phrase>
   <phrase title="option_explain.linkShare" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[When clicked, the current page link will be copied to the clipboard.]]></phrase>
   <phrase title="option_explain.loginLimit" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[If a user fails to log in 4 or more times in a 15 minute period, this method will be used to prevent brute force attacks.]]></phrase>
   <phrase title="option_explain.logoLink" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[If a home URL is provided, select this option to link the main page logo to that URL. If this option is not selected, the logo will always link to the Index page route.]]></phrase>
@@ -6165,7 +6177,7 @@ You may also specify up to two Twitter accounts to recommend to visitors after t
   <phrase title="option_explain.urlToPageTitle" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[With this enabled, if a URL is used inside a message and is not given a title by the author, where possible the linked page's title will be fetched and used instead.<br />
 <br />
 Use the textbox above to specify a format. <b>{title}</b> will be replaced with the fetched page title and <b>{url}</b> will be replaced with the original URL. If no format is entered, the title itself will be displayed.]]></phrase>
-  <phrase title="option_explain.urlToRichPreview" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[If a URL is inserted into a post it can be "unfurled" to display a rich preview of the link contents, such as title, description and image.]]></phrase>
+  <phrase title="option_explain.urlToRichPreview" version_id="2010037" version_string="2.1.0 Beta 7"><![CDATA[If a URL is inserted into a post it can automatically be "unfurled" to display a rich preview of the link contents, such as title, description and image.]]></phrase>
   <phrase title="option_explain.useFriendlyUrls" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[If you enable this option, the links generated by the system will not include "index.php?". However, to enable this, mod_rewrite must be available and an appropriate .htaccess file (or the equivalent for your web server) must be in place.]]></phrase>
   <phrase title="option_explain.userBanners" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[]]></phrase>
   <phrase title="option_explain.userMentionKeepAt" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[The @ character is used to initiate user mentions. If this option is disabled, successful user mentions will remove this character.]]></phrase>
@@ -6473,8 +6485,8 @@ Callback arguments:
   <phrase title="php_functions_disabled_impossible_check" version_id="2001070" version_string="2.0.10"><![CDATA[Your server has disabled functions that make it impossible to detect server information. Other errors may occur.]]></phrase>
   <phrase title="php_version" version_id="2001070" version_string="2.0.10"><![CDATA[PHP version]]></phrase>
   <phrase title="php_version_minimum" version_id="2001070" version_string="2.0.10"><![CDATA[You have only the minimum required PHP version. Future versions of XenForo will require a higher minimum PHP version of 5.6.0. Some features in future versions of XenForo will require a minimum PHP version of 7.1.0.]]></phrase>
-  <phrase title="php_version_not_newest" version_id="2001070" version_string="2.0.10"><![CDATA[You have a more up-to-date PHP version than the minimum required, but some features planned for the future may require a newer PHP version.]]></phrase>
-  <phrase title="php_version_recommended" version_id="2001070" version_string="2.0.10"><![CDATA[You have the recommended PHP version, all features current and planned for the future will work on this server.]]></phrase>
+  <phrase title="php_version_not_newest" version_id="2010037" version_string="2.1.0 Beta 7"><![CDATA[Your version of PHP may not support all of XenForo features. We recommend PHP 7.1 or higher.]]></phrase>
+  <phrase title="php_version_recommended" version_id="2010037" version_string="2.1.0 Beta 7"><![CDATA[You have the recommended PHP version. ]]></phrase>
   <phrase title="phrase_group_titles_must_be_no_more_than_50_characters" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Phrase group titles must be no more than 50 characters.]]></phrase>
   <phrase title="phrase_name_must_be_literal" version_id="0"><![CDATA[Phrase name must be literal]]></phrase>
   <phrase title="phrase_parameters_must_be_provided_with_literal_names_inside_hash" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Phrase parameters must be provided with literal names inside a hash.]]></phrase>
@@ -6908,6 +6920,8 @@ Callback arguments:
   <phrase title="re_run_check" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Re-run check]]></phrase>
   <phrase title="reacting_to_your_own_content_is_considered_cheating" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[Reacting to your own content is considered cheating.]]></phrase>
   <phrase title="reaction_active_hint" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[Disabled reactions can no longer be used, and will no longer appear in content summaries.]]></phrase>
+  <phrase title="reaction_content" version_id="2010053" version_string="2.1.0 Release Candidate 3"><![CDATA[Reaction content]]></phrase>
+  <phrase title="reaction_definitions" version_id="2010053" version_string="2.1.0 Release Candidate 3"><![CDATA[Reaction definitions]]></phrase>
   <phrase title="reaction_is_active" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[Reaction is active]]></phrase>
   <phrase title="reaction_message_ratio_explanation" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[A user with 10 messages and reaction score of 5 will have a ratio of 0.5.]]></phrase>
   <phrase title="reaction_score" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[Reaction score]]></phrase>
@@ -7050,10 +7064,12 @@ Callback arguments:
   <phrase title="reply_placeholder" version_id="1020010" version_string="1.2.0 Alpha"><![CDATA[Write your reply...]]></phrase>
   <phrase title="reply_quoting_this_message" version_id="1000015" version_string="1.0.0 Alpha 5"><![CDATA[Reply, quoting this message]]></phrase>
   <phrase title="reply_to_conversation" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Reply to conversation]]></phrase>
+  <phrase title="reply_to_conversation_at_x" version_id="2010053" version_string="2.1.0 Release Candidate 3"><![CDATA[Reply to conversation at {boardTitle}]]></phrase>
   <phrase title="reply_to_thread" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Reply to thread]]></phrase>
   <phrase title="reply_to_watched_thread_x" version_id="1010033" version_string="1.1.0 Beta 3"><![CDATA[{title} - New reply to watched thread]]></phrase>
   <phrase title="report" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Report]]></phrase>
   <phrase title="report_content" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Report content]]></phrase>
+  <phrase title="report_noun" version_id="2010036" version_string="2.1.0 Beta 6"><![CDATA[Report]]></phrase>
   <phrase title="report_reason" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Report reason]]></phrase>
   <phrase title="report_resolution_alert_comment_append" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[[I]The following alert was sent:[/I]
 [QUOTE][PLAIN]{alert}[/PLAIN][/QUOTE]]]></phrase>
@@ -7063,6 +7079,7 @@ Callback arguments:
   <phrase title="report_state.resolved" version_id="2000038" version_string="2.0.0 Beta 8"><![CDATA[Resolved]]></phrase>
   <phrase title="report_that_you_made_recently_has_been_resolved" version_id="1020010" version_string="1.2.0 Alpha"><![CDATA[Your recent report has been resolved: {title}]]></phrase>
   <phrase title="report_that_you_made_recently_has_been_resolved_comment_x" version_id="1020010" version_string="1.2.0 Alpha"><![CDATA[Your recent report has been resolved: {title} - {comment}]]></phrase>
+  <phrase title="report_verb" version_id="2010036" version_string="2.1.0 Beta 6"><![CDATA[Report]]></phrase>
   <phrase title="reported_content" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Reported content]]></phrase>
   <phrase title="reported_items" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Reported items]]></phrase>
   <phrase title="reported_thread_message" version_id="1020010" version_string="1.2.0 Alpha"><![CDATA[[url='{link}']{title}[/url] by [url='{userLink}']{username}[/url] has been reported by [url='{reporterLink}']{reporter}[/url]. Reason given:
@@ -7239,6 +7256,7 @@ Content being reported:
   <phrase title="selected_scopes_only" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[Selected scopes only]]></phrase>
   <phrase title="selected_tab_criteria_explain" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[ID of selected navigation tab, such as <b>forums</b>, <b>members</b> or <b>help</b>.]]></phrase>
   <phrase title="selected_user_groups" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Selected user groups]]></phrase>
+  <phrase title="selecting_bypass_checks_made_by_import_prevent_accidents" version_id="2010036" version_string="2.1.0 Beta 6"><![CDATA[Selecting this will bypass checks made by the import process to prevent accidents. Select this only if you understand what you are bypassing.]]></phrase>
   <phrase title="selecting_this_option_will_permanently_and_irreversibly_delete_item" version_id="1000015" version_string="1.0.0 Alpha 5"><![CDATA[Selecting this option will permanently and irreversibly delete the item.]]></phrase>
   <phrase title="send" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Send]]></phrase>
   <phrase title="send_message" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Send message]]></phrase>
@@ -7339,6 +7357,7 @@ Content being reported:
   <phrase title="sitemap_log" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Sitemap log]]></phrase>
   <phrase title="size" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Size]]></phrase>
   <phrase title="skip" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Skip]]></phrase>
+  <phrase title="skip_import_checks" version_id="2010036" version_string="2.1.0 Beta 6"><![CDATA[Skip import checks]]></phrase>
   <phrase title="skipped_untrusted" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Skipped (untrusted)]]></phrase>
   <phrase title="small_toolbar" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[Small toolbar]]></phrase>
   <phrase title="small_toolbar_desc" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[For small devices (>= 768px)]]></phrase>
@@ -8222,6 +8241,7 @@ When the payment has been approved, your account will be upgraded.]]></phrase>
   <phrase title="the_following_reason_was_given" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[The following reason was given:]]></phrase>
   <phrase title="the_following_recipients_could_not_be_found_x" version_id="0"><![CDATA[The following recipients could not be found: {names}.]]></phrase>
   <phrase title="the_message_to_be_shown_when_the_display_criteria_are_met" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[The message to be shown when the display criteria are met. You may insert <b>{name}</b> to be replaced with the current visitor's user name and {title} to be replaced with this notice's title.]]></phrase>
+  <phrase title="the_uploaded_file_was_not_a_video_as_expected" version_id="2010037" version_string="2.1.0 Beta 7"><![CDATA[The uploaded file was not a video as expected.]]></phrase>
   <phrase title="the_uploaded_file_was_not_an_image_as_expected" version_id="1010470" version_string="1.1.4"><![CDATA[The uploaded file was not an image as expected.]]></phrase>
   <phrase title="there_are_no_outdated_phrases" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[There are no outdated phrases.]]></phrase>
   <phrase title="there_are_no_outdated_templates" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[There are no outdated templates.]]></phrase>
@@ -8402,6 +8422,7 @@ By continuing to use this site, you are consenting to our use of cookies.]]></ph
   <phrase title="title_contains" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Title contains]]></phrase>
   <phrase title="title_count" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Count in title]]></phrase>
   <phrase title="title_count_and_icon_indicator" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Count in title and indicator on icon]]></phrase>
+  <phrase title="title_of_style_importing_differs_overwriting_is_correct" version_id="2010036" version_string="2.1.0 Beta 6"><![CDATA[The title of the style you're importing differs from the style you're overwriting. Is this the correct style?]]></phrase>
   <phrase title="title_page_x" version_id="2000034" version_string="2.0.0 Beta 4" global_cache="1"><![CDATA[ | Page {page}]]></phrase>
   <phrase title="title_template" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Title template]]></phrase>
   <phrase title="to_access_this_page_you_must_first_confirm_your_password" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[To access this page, you must first confirm your password.]]></phrase>
@@ -8506,7 +8527,6 @@ Without this, recurring subscriptions can only be cancelled from your <a href="h
   <phrase title="unban_users" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Unban users]]></phrase>
   <phrase title="undelete" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Undelete]]></phrase>
   <phrase title="undelete_posts" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Undelete posts]]></phrase>
-  <phrase title="undelete_thread" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Undelete thread]]></phrase>
   <phrase title="undelete_threads" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Undelete threads]]></phrase>
   <phrase title="underline" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Underline]]></phrase>
   <phrase title="undiscourage_users" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Undiscourage users]]></phrase>
@@ -8553,6 +8573,7 @@ Without this, recurring subscriptions can only be cancelled from your <a href="h
   <phrase title="unlocked" version_id="1020010" version_string="1.2.0 Alpha"><![CDATA[Unlocked]]></phrase>
   <phrase title="unmodified" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Unmodified]]></phrase>
   <phrase title="unordered_list" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Unordered list]]></phrase>
+  <phrase title="unread_conversations" version_id="2010037" version_string="2.1.0 Beta 7"><![CDATA[Unread conversations]]></phrase>
   <phrase title="unread_threads" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Unread threads]]></phrase>
   <phrase title="unsigned_integer" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Unsigned integer]]></phrase>
   <phrase title="unsigned_numeric" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Unsigned numeric]]></phrase>
@@ -9157,6 +9178,8 @@ You may upgrade to this version from within your control panel. If you proceed, 
 <br />
 Note that if a CLI upgrade is recommended, you will be given an opportunity to use that instead of the web upgrader.]]></phrase>
   <phrase title="xenforo_x_is_now_available" version_id="2010010" version_string="2.1.0 Alpha"><![CDATA[XenForo {version} is now available.]]></phrase>
+  <phrase title="xml_file_based_on_newer_version_than_installed" version_id="2010036" version_string="2.1.0 Beta 6"><![CDATA[This XML file is based on a newer version than you have installed. This may cause errors or unexpected behavior.]]></phrase>
+  <phrase title="xml_file_relates_add_on_not_installed_install_first" version_id="2010036" version_string="2.1.0 Beta 6"><![CDATA[This XML file relates to a particular add-on that is not installed. The add-on should be installed first.]]></phrase>
   <phrase title="xs_latest_activity" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[{name}'s latest activity]]></phrase>
   <phrase title="xs_reported_content" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[{name}'s reported content]]></phrase>
   <phrase title="year" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Year]]></phrase>
@@ -9222,7 +9245,6 @@ Note that if a CLI upgrade is recommended, you will be given an opportunity to u
   <phrase title="you_may_only_attach_x_files" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[You may only attach {count} files.]]></phrase>
   <phrase title="you_may_only_follow_x_people" version_id="1020270" version_string="1.2.2"><![CDATA[You may only follow a total of {count} people.]]></phrase>
   <phrase title="you_may_only_ignore_x_people" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[You may only ignore {count} people.]]></phrase>
-  <phrase title="you_may_only_import_from_xenforo_20" version_id="2000036" version_string="2.0.0 Beta 6"><![CDATA[You may only import from XenForo 2.0.]]></phrase>
   <phrase title="you_may_only_invite_x_members_to_join_this_conversation" version_id="0"><![CDATA[You may only invite {count} members to join this conversation.]]></phrase>
   <phrase title="you_may_select_up_to_x_choices" version_id="1040010" version_string="1.4.0 Alpha"><![CDATA[You may select up to {max} choices.]]></phrase>
   <phrase title="you_may_use_bb_code" version_id="1000015" version_string="1.0.0 Alpha 5"><![CDATA[You may use BB code]]></phrase>
@@ -9357,5 +9379,6 @@ Two-step verification increases the security of your account by requiring you to
   <phrase title="your_threads" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Your threads]]></phrase>
   <phrase title="your_vote_will_be_publicly_visible" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Your vote will be publicly visible.]]></phrase>
   <phrase title="youre_ready_start_import_will_run_browser_window_open" version_id="2000036" version_string="2.0.0 Beta 6"><![CDATA[You're now ready to start the import. Once started, the import will continue to run while this browser window is open. Once all data has been imported, further instructions will be displayed.]]></phrase>
+  <phrase title="ziparchive_support" version_id="2010037" version_string="2.1.0 Beta 7"><![CDATA[<code>ZipArchive</code> support]]></phrase>
   <phrase title="zoom" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Zoom]]></phrase>
 </phrases>
